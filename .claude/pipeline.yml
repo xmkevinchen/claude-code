@@ -1,0 +1,23 @@
+# AE Pipeline Configuration
+# Generated: 2026-04-04
+# Project: claude-code (TypeScript)
+
+# Test & lint commands (empty = skip)
+test:
+  command: ""
+
+lint:
+  command: ""
+
+# Output directories for ae skills
+output:
+  discussions: "docs/discussions/"
+  plans: "docs/plans/"
+  milestones: "docs/milestones/"
+  backlog: "docs/backlog/"
+  reviews: "docs/reviews/"
+  analyses: "docs/analyses/"
+
+# Test plugin settings
+test_plugin:
+  judge: "codex"
